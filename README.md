@@ -8,7 +8,7 @@ Cada desafío se resuelve en un notebook de Jupyter independiente, pensado para 
 
 **Desafío 1** (`Desafio_1.ipynb`): clasificación de texto sobre el dataset 20 Newsgroups. Incluye vectorización con TF-IDF, análisis de similaridad coseno entre documentos y entre palabras, un enfoque de clasificación zero-shot, y modelos de Naive Bayes (MultinomialNB y ComplementNB) optimizados con GridSearchCV. Se reportan métricas F1 y conclusiones sobre el desempeño comparado de los distintos enfoques.
 
-A medida que avance la materia, se irán agregando los desafíos siguientes con la misma estructura.
+**Desafío 2** (`Desafio_2.ipynb`): generación de embeddings propios con Word2Vec (Gensim, arquitectura Skip-gram con negative sampling) entrenados sobre un corpus armado a partir de tres colecciones de cuentos de Horacio Quiroga, obtenidas mediante scraping de textos.info. Incluye preprocesamiento del texto (normalización, tokenización, eliminación de stopwords), búsqueda de términos más y menos similares, tests de analogías mediante operaciones vectoriales, y una reducción de dimensionalidad con TSNE para visualizar y analizar los agrupamientos semánticos y sintácticos resultantes.
 
 ## Cómo ejecutar los notebooks
 
